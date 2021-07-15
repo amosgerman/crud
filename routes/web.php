@@ -9,3 +9,6 @@ Route::get('/', function () {
 
 
 Route::resource('students','StudentController');
+Route::get('/2', function () {
+    return view('welcome');
+});
